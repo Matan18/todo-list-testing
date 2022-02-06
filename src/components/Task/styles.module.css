@@ -1,0 +1,25 @@
+.container+.container {
+  margin-top: 1rem;
+}
+
+.container {
+  border: 1px solid #777;
+  border-radius: .4rem;
+  background: #d1d1d1;
+  padding: 1rem;
+  box-shadow: .5rem .5rem .2rem #0005;
+}
+
+.container[data-dragging=true] {
+  border: 2px dashed rgba(244, 244, 244, 0.2);
+  background: transparent;
+  box-shadow: none;
+}
+
+.container[data-dragging=true] * {
+  opacity: 0;
+}
+
+.container span+span {
+  margin-left: 1rem;
+}

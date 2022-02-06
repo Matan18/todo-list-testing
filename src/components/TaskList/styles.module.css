@@ -1,0 +1,11 @@
+.container {
+  margin: 2rem 1rem;
+}
+
+.container>h2 {
+  margin-bottom: 1rem;
+}
+
+.container>ul {
+  max-width: 400px;
+}
